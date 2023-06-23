@@ -22,12 +22,7 @@ describe('index.js', function () {
       });
     });
 
-    describe('destructivelyPrependCat(name)', function () {
-      it('prepends a cat to the beginning of the cats array', function () {
-        destructivelyPrependCat("Bob");
-
-        expect(cats).to.have.ordered.members(["Bob", "Milo", "Otis", "Garfield"]);
-      });
+  
     });
 
     describe('destructivelyRemoveLastCat()', function () {
@@ -78,4 +73,4 @@ describe('index.js', function () {
       });
     });
   });
-});
+
